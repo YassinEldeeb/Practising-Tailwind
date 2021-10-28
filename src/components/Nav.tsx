@@ -10,7 +10,7 @@ export const Nav = () => {
     setOpenDrawer(!openDrawer)
   }
   return (
-    <nav className="flex justify-between items-center w-full bg-white py-5 lg:py-8 sticky top-0 border-b-2 border-secondary lg:border-b-0">
+    <nav className="flex justify-between items-center w-full bg-white py-5 lg:py-8 sticky top-0 border-b-2 border-secondary lg:border-b-0 z-50 max-w-screen-2xl px-6 lg:px-12">
       <div className="flex justify-center items-center pointer-events-none select-none">
         <div className="flex justify-center items-center bg-primary w-12 h-12 rounded-full overflow-hidden">
           <h1 className="font-bold text-white text-3xl">T</h1>

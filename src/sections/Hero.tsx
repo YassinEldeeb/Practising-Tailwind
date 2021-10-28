@@ -1,6 +1,6 @@
 import { Button } from '../components/Button'
-import HeroIllustration from '../svgs/illustration.png'
-import Dots from '../svgs/element.svg'
+import HeroIllustration from '../assets/illustration.png'
+import Dots from '../assets/element.svg'
 
 export const Hero = () => {
   return (

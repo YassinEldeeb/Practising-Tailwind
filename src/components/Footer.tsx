@@ -4,7 +4,7 @@ import { Dots } from './Icons/Dots'
 export const Footer = () => {
   return (
     <div className='w-full py-10 lg:py-28 flex justify-center linearGradient relative'>
-      <div className='-left-4 -bottom-4 absolute hidden xl:block'>
+      <div className='-left-4 bottom-0 transform translate-y-5 absolute hidden xl:block'>
         <BrighterDots />
       </div>
       <div className='right-0 -top-20 transform translate-y-3 absolute xl:block -z-1'>

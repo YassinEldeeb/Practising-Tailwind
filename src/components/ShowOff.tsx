@@ -31,8 +31,8 @@ export const ShowOff: FC<Props> = ({
         </div>
       )}
       <div
-        className={`flex md:w-11/12 flex-col-reverse lg:${
-          LTR ? 'flex-row-reverse' : 'flex-row'
+        className={`flex md:w-11/12 flex-col-reverse ${
+          LTR ? 'lg:flex-row-reverse' : 'lg:flex-row'
         }`}
       >
         <div

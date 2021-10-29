@@ -36,9 +36,9 @@ export const ShowOff: FC<Props> = ({
         }`}
       >
         <div
-          className={`flex justify-center items-start flex-col mt-10 md:${
-            LTR ? 'mb-10' : 'mt-10'
-          } flex-1 md:${LTR ? 'ml-36' : 'mr-36'}`}
+          className={`flex justify-center items-start flex-col mt-10 ${
+            LTR ? 'md:mb-10' : 'md:mt-10'
+          } flex-1 ${LTR ? 'md:ml-36' : 'md:mr-36'}`}
         >
           <h1 className='header2'>{title}</h1>
           <div className='w-14 h-2px bg-black rounded-full my-5 md:my-10' />

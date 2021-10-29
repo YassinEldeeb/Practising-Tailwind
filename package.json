@@ -55,10 +55,5 @@
     "autoprefixer": "^9",
     "postcss": "^7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"
-  },
-  "engines": {
-    "npm": "7.4.0",
-    "node": "15.6.0",
-    "yarn": "1.22.17"
   }
 }

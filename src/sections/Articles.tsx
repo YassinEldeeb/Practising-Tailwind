@@ -34,7 +34,7 @@ export const Articles = () => {
       <div className='grid place-content-center'>
         <div className='flex flex-col lg:items-center justify-center mb-10 lg:mb-20'>
           <h1 className='text-3xl lg:text-4xl font-bold mb-5 lg:mb-10'>
-            Check out our latest article
+            Check out our latest articles
           </h1>
           <div className='w-16 h-2px bg-black rounded-full' />
         </div>

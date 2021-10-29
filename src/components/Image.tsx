@@ -10,19 +10,19 @@ export const Image: FC<Props> = ({ src, placeholderBase64, className }) => {
   const [loaded, setLoaded] = useState(false)
   return (
     <div>
-      <div className="relative">
+      <div className='relative flex'>
         <img
           className={`${className} ${loaded ? 'opacity-0' : ''}`}
           src={placeholderBase64}
-          alt=""
+          alt=''
         />
         <img
-          className={`${className} absolute left-0 top-0 transition duration-75 ${
+          className={`${className} w-full h-full absolute left-0 top-0 transition duration-75 ${
             loaded ? 'opacity-100' : 'opacity-0'
           }`}
           onLoad={() => setLoaded(true)}
           src={src}
-          alt=""
+          alt=''
         />
       </div>
     </div>

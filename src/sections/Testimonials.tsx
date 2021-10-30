@@ -99,7 +99,7 @@ export const Testimonials = () => {
             <BrighterDots />
           </div>
           <h1 className='text-3xl xl:text-5xl font-bold text-white xl:text-center'>
-            What our customer are saying
+            What our customers are saying
           </h1>
           <div className='w-16 h-1 bg-white rounded-full my-9' />
           <div className='flex justify-between xl:pt-6 flex-col-reverse xl:flex-row'>
